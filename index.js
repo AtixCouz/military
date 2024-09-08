@@ -14,12 +14,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`managing: http://localhost:${port}`);
+  console.log(`index.js loaded`);
 });
 
 
-const statusMessages = ["Playing HRBRP","Keeping HRBRP Safe","test" ];
+const statusMessages = ["Playing HRBRP","Playing HRBRP","Keeping HRBRP Safe","Keeping HRBRP Safe"];
 
 
 let currentIndex = 0;
@@ -28,7 +28,7 @@ const channelId = '';
 async function login() {
   try {
     await client.login(process.env.TOKEN);
-    console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
+    console.log(`\x1b[36m%s\x1b[0m`, `|     Logged in as ${client.user.tag}`);
   } catch (error) {
     console.error('Failed to log in:', error);
     process.exit(1);
