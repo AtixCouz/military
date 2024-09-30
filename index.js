@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Playing HRBRP","Playing HRBRP","Keeping HRBRP Safe","Keeping HRBRP Safe"];
+const statusMessages = ["","","",""];
 
 
 let currentIndex = 0;
