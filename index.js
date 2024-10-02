@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = [" "," "," "," "];
+const statusMessages = ["/help | /configure","/help | /configure","Managing your server!","Managing your server!"];
 
 
 let currentIndex = 0;
