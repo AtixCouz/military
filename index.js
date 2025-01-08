@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Watching New York","Watching New York","Watching New York","Watching New York"];
+const statusMessages = ["Running CSD","Running CSD","Running CSD","Running CSDk"];
 
 
 let currentIndex = 0;
