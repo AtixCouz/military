@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Watching CSD","Watching CSD","Watching CSD","Watching CSD"];
+const statusMessages = ["Watching the Military","Watching the Military","Watching the Military","Watching the Military"];
 
 
 let currentIndex = 0;
